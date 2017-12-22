@@ -36,10 +36,18 @@ namespace TestPluginApp
             if ((e.ClickedItem.Tag == null) || (! File.Exists(e.ClickedItem.Tag.ToString())))
                 return;
 
-            BasePlugin plugin = new PluginFactory().CreatePlugin(e.ClickedItem.Tag.ToString());
+            try
+            {
+                BasePlugin plugin = new PluginFactory().CreatePlugin(e.ClickedItem.Tag.ToString());
 
-            plugin.MdiParent = this;
-            plugin.Show();            
+                plugin.MdiParent = this;
+                plugin.Show();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.InnerException.Message);
+            }
+                   
         }
     }
 

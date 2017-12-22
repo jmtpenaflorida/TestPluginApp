@@ -17,7 +17,7 @@ namespace TestPluginApp.C
 
         public string Output()
         {
-            return "This came from the New Plugin C Business Logic: " + value;
+            return "This came from the New Plugin C Business Logic: " + value + ": From New Plugin";
         }
     }
 }
