@@ -91,14 +91,6 @@
       <Project>{7e56f77d-1b88-4e6f-834f-534b78d128b5}</Project>
       <Name>TestPlugin</Name>
     </ProjectReference>
-    <ProjectReference Include="..\TestPluginApp.C.BusinessLogic\TestPluginApp.C.BusinessLogic.csproj">
-      <Project>{b19cb7ad-9f00-452e-85ec-6964c99fcab9}</Project>
-      <Name>TestPluginApp.C.BusinessLogic</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\TestPluginApp.C.Common\TestPluginApp.C.Common.csproj">
-      <Project>{7947250c-162f-48ec-a765-6a5280c64cd0}</Project>
-      <Name>TestPluginApp.C.Common</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

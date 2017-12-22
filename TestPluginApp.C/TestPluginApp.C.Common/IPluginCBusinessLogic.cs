@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TestPluginApp.C.Common
+namespace TestPluginApp.C
 {
     public interface IPluginCBusinessLogic
     {

@@ -7,8 +7,8 @@
     <ProjectGuid>{B19CB7AD-9F00-452E-85EC-6964C99FCAB9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestPluginApp.C.BusinessLogic</RootNamespace>
-    <AssemblyName>TestPluginApp.C.BusinessLogic</AssemblyName>
+    <RootNamespace>TestPluginApp.C</RootNamespace>
+    <AssemblyName>TestPluginApp.C</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,6 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />

@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TestPluginApp.C.Common;
 
-namespace TestPluginApp.C.BL
+namespace TestPluginApp.C
 {
-    public class NewPluginCBusinessLogic : IPluginCBusinessLogic
+    internal class NewPluginCBusinessLogic : IPluginCBusinessLogic
     {
         private string value;
 

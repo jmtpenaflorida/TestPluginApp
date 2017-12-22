@@ -7,8 +7,8 @@
     <ProjectGuid>{7947250C-162F-48EC-A765-6A5280C64CD0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestPluginApp.C.Common</RootNamespace>
-    <AssemblyName>TestPluginApp.C.Common</AssemblyName>
+    <RootNamespace>TestPluginApp.C</RootNamespace>
+    <AssemblyName>TestPluginApp.C</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

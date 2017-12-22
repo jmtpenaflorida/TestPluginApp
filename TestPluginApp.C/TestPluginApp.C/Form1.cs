@@ -8,28 +8,28 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TestPlugin;
-using TestPluginApp.C.Common;
-using TestPluginApp.C.BL;
 
 namespace TestPluginApp.C
 {
     public partial class Form1 : BasePlugin
     {
-        private IPluginCBusinessLogic pluginLogic = new PluginCBusinessLogic();
+        private IPluginCBusinessLogic PluginLogic { get; set; }
 
         public Form1()
         {
             InitializeComponent();
+
+            PluginLogic = new NewPluginCBusinessLogic();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-           MessageBox.Show(pluginLogic.Output());
+           MessageBox.Show(PluginLogic.Output());
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            pluginLogic.Input(textBox1.Text);
+            PluginLogic.Input(textBox1.Text);
         }
     }
 }
